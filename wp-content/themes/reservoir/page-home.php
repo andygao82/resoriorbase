@@ -24,21 +24,71 @@
                 <?php } ?>
             </ul>
         </div>
+        <img src="<?php echo get_template_directory_uri('/'); ?>/images/colour-strip.svg" alt="reservoir shopping center" />
     </div>
 	<div class="home-stores">
-		<div class="container">
+		<div class="container-fluid">
 			<div class="row">
 				<div class="col-12">
 					<div class="wrapper">
                         <h2>STORES</h2>
-                        <ul>
-                            <li><a href="#">SUPERMARKET</a></li>
-                            <li><a href="#">EAT IN & TAKEAWAY</a></li>
-                            <li><a href="#">GIFT & HOMEWARES</a></li>
-                            <li><a href="#">LIQUOR</a></li>
-                            <li><a href="#">HEALTH & BEAUTY</a></li>
-                            <li><a href="#">SERVICE</a></li>
-                        </ul>
+                        <div class="inner-wrapper">
+                            <ul>
+                                <li>
+                                    <a class="store-wrapper"  href="#">
+                                        <div class="store-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <h3>SUPERMARKET</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="store-wrapper"  href="#">
+                                        <div class="store-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <h3>SUPERMARKET</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="store-wrapper"  href="#">
+                                        <div class="store-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <h3>SUPERMARKET</h3>
+                                    </a>
+                                </li>
+                         
+                            </ul>
+                        </div>
+                        <div class="inner-wrapper">
+                            <ul>
+                                <li>
+                                    <a class="store-wrapper"  href="#">
+                                        <div class="store-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <h3>SUPERMARKET</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="store-wrapper"  href="#">
+                                        <div class="store-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <h3>SUPERMARKET</h3>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="store-wrapper"  href="#">
+                                        <div class="store-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <h3>SUPERMARKET</h3>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
 					</div>
 				</div>
 			</div>

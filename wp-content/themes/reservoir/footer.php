@@ -28,9 +28,11 @@
 						<span>8:00AM - 6:00PM</span>
 					</div>
 					<div class="map-info">
+						<h3>Parking</h3>
 						<span>2 hours free with With 500 on-site</span>
 						<span>& undercover parking, parking is easy</span>
 					</div>
+					<a href="javascript:;" class="button">CONTACT US</a>
 				</div>
 			</div>
 		</div>
@@ -62,7 +64,7 @@
 				<div class="col-12">
 					<div class="wrapper">
 						<span>Copyright &copy; Reservoir Central. All Rights Reserved</span>
-						<a href="http://ddcreative.com.au/" target="_blank">Website by D&D Creative</a>
+						<a id="dd" href="http://ddcreative.com.au/" target="_blank">Website by D&D Creative</a>
 					</div>
 				</div>
 			</div>

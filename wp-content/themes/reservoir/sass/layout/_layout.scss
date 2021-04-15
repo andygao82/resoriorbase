@@ -1,0 +1,64 @@
+header{
+	.container-fluid{
+		max-width: 1850px;
+	}
+	padding: 55px 0;
+	background-color: #fff;
+	font-weight: 600;
+	text-transform: uppercase;
+	.wrapper{
+		display: flex;
+
+	}
+	.inner-wrapper{
+		margin-top: 30px;
+		display: flex;
+		justify-content: space-between;
+		margin-left: auto;
+		align-items: center;
+	}
+	.social-media{
+		margin-left: 35px;
+	}
+	.trading-hours{
+		margin-left: 85px;
+		margin-top: -25px;
+		span{
+			display: block;
+			text-align: right;
+			margin-top: 3px;
+		}
+	}
+}
+.map{
+	position: relative;
+	&-infos{
+		padding: 80px 80px 80px 240px;
+		position: absolute;
+		height: 100%;
+		text-align: right;
+		z-index: 2;
+		top: 0;
+		color: #fff;
+		background: transparent linear-gradient(269deg, #EA5D0B 0%, #F28D04 60%, #F7A900 100%) 0% 0% no-repeat padding-box;
+		.map-info{
+			margin-bottom: 40px;
+		}
+		h3{
+			letter-spacing: 0;
+			margin-bottom: 2em;
+		}
+		span{
+			display: block;
+			font-size: 1.6rem;
+			line-height: 1.6;
+			font-weight: 400;
+		}
+		.button{
+			@include button();
+		}
+	}
+}
+footer{
+
+}

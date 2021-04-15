@@ -1,0 +1,20 @@
+@mixin centerItem() {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin button($color: #fff, $borderColor: #fff, $bgColor: transparent){
+	background-color: $bgColor;
+	color: $color;
+	border: 1px solid $borderColor;
+	border-radius: 180px;
+	padding: 8px 35px;
+	font-weight: 400;
+	font-size: 1.6rem;
+	text-align: center;
+	display: inline-block;
+	letter-spacing: 2px;
+
+}
