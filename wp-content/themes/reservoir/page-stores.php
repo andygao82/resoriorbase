@@ -5,11 +5,9 @@
     $size = 'full';
 ?>
 <main>
-	<div class="banner banner-store">
-	
-	</div>
+	<div class="banner banner-store"></div>
 	<div class="content">
-		<h1>STORES</h1>
+		<h1 class="page-title">STORES</h1>
 	</div>
 
 </main>

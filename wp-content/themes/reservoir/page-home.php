@@ -23,6 +23,10 @@
                     <?php endif ?>
                 <?php } ?>
             </ul>
+            <div class="flex-custom-nav">
+                <a href="#" class="flex-prev"><span></span></a>
+                <a href="#" class="flex-next"><span></span></a>
+            </div>
         </div>
         <img src="<?php echo get_template_directory_uri('/'); ?>/images/colour-strip.svg" alt="reservoir shopping center" />
     </div>
@@ -47,7 +51,7 @@
                                         <div class="store-image">
                                             <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
                                         </div>
-                                        <h3>SUPERMARKET</h3>
+                                        <h3>EAT IN & TAKEAWAY</h3>
                                     </a>
                                 </li>
                                 <li>
@@ -55,10 +59,10 @@
                                         <div class="store-image">
                                             <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
                                         </div>
-                                        <h3>SUPERMARKET</h3>
+                                        <h3>GIFTS & HOMEWARES</h3>
                                     </a>
                                 </li>
-                         
+
                             </ul>
                         </div>
                         <div class="inner-wrapper">
@@ -68,7 +72,7 @@
                                         <div class="store-image">
                                             <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
                                         </div>
-                                        <h3>SUPERMARKET</h3>
+                                        <h3>LIQUOR</h3>
                                     </a>
                                 </li>
                                 <li>
@@ -76,7 +80,7 @@
                                         <div class="store-image">
                                             <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
                                         </div>
-                                        <h3>SUPERMARKET</h3>
+                                        <h3>HEALTH & BEAUTY</h3>
                                     </a>
                                 </li>
                                 <li>
@@ -84,7 +88,7 @@
                                         <div class="store-image">
                                             <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
                                         </div>
-                                        <h3>SUPERMARKET</h3>
+                                        <h3>SERVICE</h3>
                                     </a>
                                 </li>
                             </ul>
@@ -95,20 +99,64 @@
 		</div>
 	</div>
     <div class="whatson">
-        <div class="container">
+        <div class="container-fluid">
             <div class="row">
 				<div class="col-12">
 					<div class="wrapper">
                         <h2>WHAT'S ON</h2>
-                        <ul>
-                            <li><a href="#">SUPERMARKET</a></li>
-                            <li><a href="#">EAT IN & TAKEAWAY</a></li>
-                            <li><a href="#">GIFT & HOMEWARES</a></li>
-                        </ul>
-					</div>
+                        <div class="inner-wrapper">
+                            <ul>
+                                <li>
+                                    <a class="whatson-wrapper"  href="#">
+                                        <div class="whatson-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <div class="whaton-info">
+                                            <h3>Special Offer from Maroc Fine Foods & Groceries</h3>
+                                            <div class="excerpt">
+                                                WEEKLY SPECIALS for you! Offer valid till 31st March at 6 pm or sold out.* Top-quality produce including raspberries, spring onions, avocados…
+                                            </div>
+                                            <span class="button">LEARN MORE</span>
+                                            <span class="date">April 2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="whatson-wrapper"  href="#">
+                                        <div class="whatson-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <div class="whaton-info">
+                                            <h3>Special Offer from Maroc Fine Foods & Groceries</h3>
+                                            <div class="excerpt">
+                                                WEEKLY SPECIALS for you! Offer valid till 31st March at 6 pm or sold out.* Top-quality produce including raspberries, spring onions, avocados…
+                                            </div>
+                                            <span class="button">LEARN MORE</span>
+                                            <span class="date">April 2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="whatson-wrapper"  href="#">
+                                        <div class="whatson-image">
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                        </div>
+                                        <div class="whaton-info">
+                                            <h3>Special Offer from Maroc Fine Foods & Groceries</h3>
+                                            <div class="excerpt">
+                                                WEEKLY SPECIALS for you! Offer valid till 31st March at 6 pm or sold out.* Top-quality produce including raspberries, spring onions, avocados…
+                                            </div>
+                                            <span class="button">LEARN MORE</span>
+                                            <span class="date">April 2021</span>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 				</div>
 			</div>
-		</div>            
+		</div>
     </div>
 </main>
 <?php get_footer(); ?>
@@ -116,10 +164,11 @@
     $(window).load(function(){
         $('.flexslider').flexslider({
             animation: "fade",
-            touch: true,  
+            touch: true,
             slideshow: true,                //Boolean: Animate slider automatically
             slideshowSpeed: 3000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
-            animationSpeed: 1000
+            animationSpeed: 1000,
+            customDirectionNav: $(".flex-custom-nav a")
         });
-    }) 
+    })
 </script>

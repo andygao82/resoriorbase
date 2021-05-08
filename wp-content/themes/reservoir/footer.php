@@ -42,11 +42,11 @@
 			<div class="row">
 				<div class="col-12">
 					<div class="wrapper">
-						<h3>CONTACT US</h3>
+						<h2>CONTACT US</h2>
 						<div class="inner-wrapper">
 							<div class="contact-info">
 								<h4>LEASING ENQUIRY</h4>
-								<a href="mailto:info@fitzorys.com.au" class="contact-info-email">E info@fitzorys.com.au</a>
+								<a href="mailto:info@fitzorys.com.au" class="contact-info-email">info@fitzorys.com.au</a>
 								<a href="tel:+61417980824">M +61 417 980 824</a>
 							</div>
 							<div class="contact-form">
