@@ -73,6 +73,26 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script>
+    $(function(){
+        $('#menu-item-29').click(function (e) {
+            e.preventDefault();
+            $('#nav').removeClass('active')
+            $('#menuicon').removeClass('active')
+            $('html, body').animate({
+                scrollTop: $('.contact').offset().top - 20 //#DIV_ID is an example. Use the id of your destination on the page
+            }, 2000);
+        });
+        $('#menu-item-30 > a').click(function (e) {
+            e.preventDefault();
+            $('.sub-menu').toggleClass('show')
+        })
+        $('#menuicon').click(function (e) {
+            e.preventDefault();
+            $('#nav').toggleClass('active')
+            $(this).toggleClass('active')
+        })
+    })
+</script>
 </body>
 </html>

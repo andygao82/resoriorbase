@@ -12,14 +12,14 @@ $size = 'full';
                     <h1 class="page-title">Central Map</h1>
                 </div>
                 <div class="inner-wrapper">
-                    <div class="map-wrapper">
+                    <div class="map-inner-wrapper">
                         <div class="shops">
                             <div class="shop-list">
                                 <h3>Supermarket</h3>
                                 <?php echo get_field('supermarket')?>
                             </div>
                             <div class="shop-list">
-                                <h3>Gifts & Homeware</h3>
+                                <h3>Gifts & Homewares</h3>
                                 <?php echo get_field('gift_&_homeware')?>
                             </div>
                             <div class="shop-list">

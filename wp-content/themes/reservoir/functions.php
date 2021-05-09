@@ -185,3 +185,9 @@ function style_css(){
 	}
 }
 add_action( 'wp_enqueue_scripts', 'style_css' );
+
+function wwp_custom_query_vars_filter($vars) {
+    $vars[] .= 'categoryid';
+    return $vars;
+}
+add_filter( 'query_vars', 'wwp_custom_query_vars_filter' );

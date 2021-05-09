@@ -39,7 +39,7 @@
                         <div class="inner-wrapper">
                             <ul>
                                 <li>
-                                    <a class="store-wrapper"  href="#">
+                                    <a class="store-wrapper"  href="<?php echo esc_url( home_url( '/' ) ); ?>stores?categoryid=5">
                                         <div class="store-image">
                                             <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
                                         </div>
@@ -47,17 +47,17 @@
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="store-wrapper"  href="#">
+                                    <a class="store-wrapper"  href="<?php echo esc_url( home_url( '/' ) ); ?>stores?categoryid=11">
                                         <div class="store-image">
-                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/eat.png" alt="reservoir shopping center" />
                                         </div>
                                         <h3>EAT IN & TAKEAWAY</h3>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="store-wrapper"  href="#">
+                                    <a class="store-wrapper"  href="<?php echo esc_url( home_url( '/' ) ); ?>stores?categoryid=6">
                                         <div class="store-image">
-                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/gift.png" alt="reservoir shopping center" />
                                         </div>
                                         <h3>GIFTS & HOMEWARES</h3>
                                     </a>
@@ -68,25 +68,25 @@
                         <div class="inner-wrapper">
                             <ul>
                                 <li>
-                                    <a class="store-wrapper"  href="#">
+                                    <a class="store-wrapper"  href="<?php echo esc_url( home_url( '/' ) ); ?>stores?categoryid=7">
                                         <div class="store-image">
-                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/liquar.png" alt="reservoir shopping center" />
                                         </div>
                                         <h3>LIQUOR</h3>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="store-wrapper"  href="#">
+                                    <a class="store-wrapper"  href="<?php echo esc_url( home_url( '/' ) ); ?>stores?categoryid=8">
                                         <div class="store-image">
-                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/beauty.png" alt="reservoir shopping center" />
                                         </div>
                                         <h3>HEALTH & BEAUTY</h3>
                                     </a>
                                 </li>
                                 <li>
-                                    <a class="store-wrapper"  href="#">
+                                    <a class="store-wrapper"  href="<?php echo esc_url( home_url( '/' ) ); ?>stores?categoryid=13">
                                         <div class="store-image">
-                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/Category_Supermarket.png" alt="reservoir shopping center" />
+                                            <img src="<?php echo get_template_directory_uri('/'); ?>/images/service.png" alt="reservoir shopping center" />
                                         </div>
                                         <h3>SERVICE</h3>
                                     </a>

@@ -41,7 +41,7 @@
 				}
 			});
 		})
-		
+
 	</script>
 </head>
 
@@ -59,9 +59,10 @@
 							<img src="<?php echo get_template_directory_uri('/'); ?>/images/logo.svg" alt="reservoir shopping center" />
 						</a>
 						<div class="inner-wrapper">
-							<a href="javascript:;" id="nav-icon">
+							<a href="javascript:;" id="menuicon">
 								<span></span>
-								<span></span>
+                                <span></span>
+                                <span></span>
 							</a>
 							<nav id="nav">
 								<?php
